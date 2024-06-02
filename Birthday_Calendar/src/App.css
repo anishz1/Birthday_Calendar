@@ -1,0 +1,51 @@
+/* src/App.css */
+.app {
+  text-align: center;
+}
+
+.calendar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.day {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border: 1px solid #ddd;
+  margin: 2px;
+  cursor: pointer;
+}
+
+.day:hover {
+  background-color: #f0f0f0;
+}
+
+.day-view {
+  margin-top: 20px;
+}
+
+.birthday-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 5px 0;
+}
+
+.favorite-birthdays {
+  margin-top: 20px;
+}
+
+.add-birthday-form {
+  margin-top: 20px;
+}
+
+.add-birthday-form input {
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.add-birthday-form button {
+  padding: 5px 10px;
+}
